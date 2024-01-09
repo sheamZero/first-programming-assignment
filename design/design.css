@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+.continer {
+    width: 82%;
+    max-width: 1320px;
+    margin: 50px auto 140px;
+}
+/* Banner related style start  */
+.banner {
+    height: 600px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Banner\ Image.png');
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-continer-text {
+    text-align: center;
+}
+.header-continer-text h3 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+.header-continer-text h1 {
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 80px;
+}
+/* End */
+/* Discount related Design start */
+.discount {
+    width: 650px;
+    margin: 0 auto;
+}
+.discount-text {
+    text-align: center;
+}
+.discount-text h1 {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+.discount-text p {
+    color: #F00;
+    margin-top: 42px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.discount-text h3 {
+    color: #070211;
+    margin-bottom: 48px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.discount-image img {
+    width: 680px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+/* End */
