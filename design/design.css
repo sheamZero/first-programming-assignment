@@ -154,3 +154,143 @@
     padding: 2px 25px;
 }
 /* end */
+/* Best offer related design start */
+.offer {
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-offer-text {
+    width: 395px;
+}
+.best-offer-text h4 {
+    color: #F00;
+    width: 210px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.best-offer-text h2 {
+    width: 270px;
+    height: 60px;
+    color: #070211;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.best-offer-text p {
+    width: 390px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.best-offer-image {
+    width: 435px;
+    height: 435px;
+    border: 15px solid #F00;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-right: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.best-offer-image img {
+    width: 360px;
+    height: 360px;
+}
+.best-offer-year {
+    width: 275px;
+}
+.best-offer-year h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.best-offer-year p {
+    width: 270px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.best-offer-year img {
+    width: 140px;
+    height: 140px;
+    margin-top: 45px;
+}
+/* end */
+/* holiday related style */
+.holidays {
+    width: 1320px;
+    height: 960px;
+}
+.holidays-text h4 {
+    color: #070211;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.holidays-text h1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+.holidays-text h1 span {
+    color: #F00;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holidays-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+.holidays-image {
+    position: relative;
+}
+.holidays-image .fifty-percent {
+    width: 429px;
+    height: 433px;
+    background-image: url('/resources/Rectangle\ 1.png');
+    border-radius: 16px 16px 0px 0px;
+    position: absolute;
+    right: 0;
+}
+.holidays-image .fifty-percent img {
+    width: 206px;
+    height: 206px;
+    position: absolute;
+    top: 135px;
+    right: 330px;
+}
+.holidays-image .gift-box {
+    width: 1320px;
+    height: 229px;
+    background-image: url('/resources/Rectangle\ 2.png');
+    border-radius: 16px 0px 16px 16px;
+    background: #F00;
+    position: absolute;
+    top: 433px;
+}
+.holidays-image .gift-box img {
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    left: 170px;
+    bottom: 80px;
+}
+/* end */
