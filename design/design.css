@@ -67,3 +67,90 @@
     justify-content: center;
 }
 /* End */
+/* party related style start*/
+.midnight-party {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('/resources/Vectorrr.png');
+    margin-top: 120px;
+    border-radius: 16px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.midnight-party-text {
+    margin: 120px 0 120px 120px;
+}
+.midnight-party-text h1 {
+    width: 640px;
+    color: #FFF;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 65px;
+    letter-spacing: 7px;
+}
+.midnight-party-text p {
+    width: 680px;
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.midnight-party-text button {
+    width: 105px;
+    height: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    background-color: #070211;
+    margin-left: 15px;
+}
+.midnight-party img {
+    width: 320px;
+    height: 460px;
+    margin: 50px 0;
+    margin-right: 130px;
+}
+/* end */
+/* park hotel section start */
+.park {
+    height: 480px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.park-hotel {
+    width: 580px;
+}
+.park-hotel h4 {
+    color: black;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.park-hotel-span {
+    color: #F00;
+}
+.park-hotel button {
+    color: #FFF;
+    background-color: #FF0000;
+    width: 160px;
+    height: 55px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 48px;
+    margin-left: 218px;
+    font-size: 18px;
+    padding: 2px 25px;
+}
+/* end */
