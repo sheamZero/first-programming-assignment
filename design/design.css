@@ -400,13 +400,14 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 .website-section .website-text {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    margin-top: 140px;
+    margin-top: 120px;
     margin-left: 120px;
 }
 .website-section .website-number pre {
